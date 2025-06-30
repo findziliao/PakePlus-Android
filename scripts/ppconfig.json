@@ -129,8 +129,8 @@
         "debug": false
     },
     "android": {
-        "name": "PakePlus",
-        "showName": "PakePlus",
+        "name": "lvcabine",
+        "showName": "智能耗材管理柜",
         "version": "0.0.1",
         "webUrl": "https://juejin.cn/",
         "id": "com.oaikes.pakeplus.android",

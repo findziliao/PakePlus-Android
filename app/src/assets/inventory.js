@@ -1,0 +1,1 @@
+import{bo as i,bU as p}from"./index.js";function c(t){if(!t)return{items:[],page:0,total:0,pagesize:10};const{page:e,pagesize:o,total:r,items:s}=t;return s?{items:s.map((n,a)=>({index:a+1,key:n.id,...n})),page:e,total:r,pagesize:o}:{items:[],page:0,total:0,pagesize:10}}const u=async t=>{const e=await i.post("/api/stock/getInventoryInfoList",t);return p(c,e)};export{u as f};
