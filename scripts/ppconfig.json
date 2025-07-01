@@ -131,7 +131,7 @@
     "android": {
         "name": "neimengCabinet",
         "showName": "智能耗材管理柜",
-        "version": "0.0.2",
+        "version": "0.0.1",
         "id": "com.neimengcabinet.app",
         "desc": "智能耗材管理柜描述",
         "webUrl": "index.html",
@@ -143,8 +143,7 @@
         "isHtml": true,
         "single": true,
         "state": true,
-        "injectJq": true,
-        "tauriApi": true,
+        
         "debug": true
     },
     "desktop": {
