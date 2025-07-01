@@ -132,7 +132,7 @@
         "name": "PakePlus",
         "showName": "PakePlus",
         "version": "0.0.1",
-        "webUrl": "file:///android_asset/index.html",
+        "webUrl": "file:///android_asset/soy-admin/index.html",
         "id": "com.oaikes.pakeplus.android",
         "icon": "./app-icon.png",
         "input": "./app-icon.png",
