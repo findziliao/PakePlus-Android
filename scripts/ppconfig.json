@@ -129,22 +129,23 @@
         "debug": false
     },
     "android": {
-        "name": "neimengCabinet",
+        "name": "nmcabine",
         "showName": "智能耗材管理柜",
         "version": "0.0.1",
-        "id": "com.neimengcabinet.app",
-        "desc": "智能耗材管理柜描述",
         "webUrl": "index.html",
-        "iconPath": "../app-icon.png",
-        "inputPath": "../app-icon.png",
-        "tempPath": "./processed-image.png",
-        "icnsPath": "../src-tauri/icons/icon.icns",
-        "pubBody": "智能耗材管理柜发布内容描述",
+        "id": "com.neimeng.cabinet.android",
+        "icon": "./app-icon.png",
+        "input": "./app-icon.png",
+        "output": "./res",
+        "rounded": true,
+        "copyTo": "./app/src/main/res",
+        "androidResDir": "./app/src/main/res",
+        "desc": "PakePlus Project by 1024xiaoshen",
+        "pubBody": "PakePlus android build body",
         "isHtml": true,
+        "debug": false,
         "single": true,
-        "state": true,
-        
-        "debug": true
+        "state": true
     },
     "desktop": {
         "name": "PakePlus2",
